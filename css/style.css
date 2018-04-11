@@ -35,17 +35,22 @@
 
 html {
   position: relative;
-  height: 100%; }
+  height: 100%;
+  width:100%;
+ }
 
 img {
   width: 100%; }
 
 body {
   height: 100%;
+  width:100%;
+
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-  background-color:#CAE001;
+  /*background-color:#CAE001;*/
   /* Margin bottom by footer height */
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+ }
 
 h1,
 h2,
@@ -61,11 +66,12 @@ p {
 
 body > .container-fluid {
   padding: 60px 15px 0;
-  
+
  }
 
 .container-fluid .text-muted {
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 .btn:focus, a:focus {
   outline: none !important; }
@@ -101,7 +107,7 @@ body > .container-fluid {
   color: #CAE001;
   text-decoration: none; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: transparent;
+  /*background-color: transparent;*/
   color: #CAE001; }
 .navbar-default .navbar-toggle {
   border-color: #CAE001; }
@@ -153,10 +159,13 @@ body > .container-fluid {
   background-color: #747533  ; }
   #about h2 {
     color: #07374a; }
+    #myabout{
+      background-color: #747533  ;
+    }
 
 .profile-img {
   margin-bottom: 15px;
-  width: 120px; }
+  width: 250px; }
 
 .about, .about-info, .about-tools, .about-last {
   padding: 4% 10% 1% 10%;
@@ -239,7 +248,8 @@ body > .container-fluid {
   color: #07374a;
   list-style: none; }
   .contact-social-icons ul a:hover {
-    color: #f0f0e6; }
+    color: #CAE001; 
+  }
   .contact-social-icons ul a li {
     display: inline-block;
     padding: 2%; }
